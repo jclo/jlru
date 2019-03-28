@@ -124,7 +124,7 @@
   }
 
 
-  // -- Public Functions -----------------------------------------------------
+  // -- Public Static Methods ------------------------------------------------
   // (in the scope of this library)
 
   LRU = {
