@@ -1,0 +1,4 @@
+  // Returns the library name:
+  return JLRU;
+}));
+/* eslint-enable one-var, semi-style */
