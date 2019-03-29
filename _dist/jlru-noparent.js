@@ -1,11 +1,18 @@
+/** ****************************************************************************
+ * JLRU v0.0.1
+ *
+ * An in-memory key/value database based on the Least Recently Used algorithm.
+ * (you can download it from npm or github repositories)
+ * Copyright (c) 2019 jclo <jclo@mobilabs.fr> (http://www.mobilabs.fr/).
+ * Released under the MIT license. You may obtain a copy of the License
+ * at: http://www.opensource.org/licenses/mit-license.php).
+ * ************************************************************************** */
 // Based on UMDLib template v0.8.2
 // ESLint declarations
 /* global define */
 /* eslint strict: ["error", "function"] */
 /* eslint-disable one-var, semi-style */
 (function(root, factory) {
-  'use strict';
-
   /* istanbul ignore next */
   if (typeof define === 'function' && define.amd) {
     // AMD. Register as an anonymous module.
@@ -21,9 +28,7 @@
     root.JLRU = factory(root);
     /* eslint-enable no-param-reassign */
   }
-}(this, function(root) {
-  'use strict';
-
+}({{lib:parent}}, function(root) {
   // These are the global variables accessible everywhere inside this module.
   // 'JLRU' is the variable that defines this library and it is the only variable
   // accessible outside this module.
@@ -692,7 +697,7 @@
     /* eslint-enable no-param-reassign */
 
     // Current version of the library:
-    JLRU.VERSION = '{{lib:version}}';
+    JLRU.VERSION = '0.0.1';
 
     // For testing purpose:
     JLRU._ = _;

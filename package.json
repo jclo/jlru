@@ -1,8 +1,8 @@
 {
   "name": "jlru",
-  "version": "0.0.0",
-  "description": "A in-memory key/value database based on the Least Recently Used algorithm",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "An in-memory key/value database based on the Least Recently Used algorithm",
+  "main": "_dist/jlru.min.js",
   "bin": {},
   "scripts": {
     "build": "gulp build",
@@ -19,10 +19,15 @@
     "url": "https://github.com/jclo/jlru.git"
   },
   "keywords": [
-    "javascript",
+    "es5",
     "lru",
+    "least",
+    "recently",
+    "used",
     "in-memory",
-    "key/value pair"
+    "cache",
+    "key/value pair",
+    "max-age"
   ],
   "author": {
     "name": "jclo",

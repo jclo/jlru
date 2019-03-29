@@ -99,9 +99,9 @@
    * Creates and returns the object JLRU.
    * (Prototypal Instantiation Pattern)
    *
-   * @constructor ()
+   * @constructor (arg1)
    * @public
-   * @param {arg1}        the optional parameters,
+   * @param {Object}      the optional parameters,
    * @returns {Object}    returns the JLRU object,
    * @since 0.0.0
    */
@@ -179,7 +179,7 @@
      * @public
      * @param {String}    the name of the key,
      * @param {Object}    the value of the key (string, number, object, array, etc.),
-     * @param {Object}    the optional parameters ({ force: tue/false })
+     * @param {Object}    the optional parameters ({ force: true/false })
      * @returns {Object}  returns the added key/value pair or null,
      * @since 0.0.0
      */

@@ -1,7 +1,5 @@
 .DS_store
 __trash
-_dist
 .nyc_output
 coverage
 node_modules
-.eslintrc
