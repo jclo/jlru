@@ -1,6 +1,6 @@
 {
   "name": "jlru",
-  "version": "0.0.2alpha1",
+  "version": "0.0.2",
   "description": "An in-memory key/value database based on the Least Recently Used algorithm",
   "main": "_dist/jlru.min.js",
   "bin": {},

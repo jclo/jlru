@@ -1,5 +1,5 @@
 /** ****************************************************************************
- * JLRU v0.0.2alpha1
+ * JLRU v0.0.2
  *
  * An in-memory key/value database based on the Least Recently Used algorithm.
  * (you can download it from npm or github repositories)
@@ -706,7 +706,7 @@
     /* eslint-enable no-param-reassign */
 
     // Current version of the library:
-    JLRU.VERSION = '0.0.2alpha1';
+    JLRU.VERSION = '0.0.2';
 
     // For testing purpose:
     JLRU._ = _;
