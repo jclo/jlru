@@ -189,7 +189,7 @@
     },
 
     /**
-     * Returns a key/value pair from the cache and deletes it.
+     * Returns a key/value pair from the cache.
      *
      * @method (arg1)
      * @public

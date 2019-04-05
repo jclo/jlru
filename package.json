@@ -1,6 +1,6 @@
 {
   "name": "jlru",
-  "version": "0.0.1",
+  "version": "0.0.2alpha1",
   "description": "An in-memory key/value database based on the Least Recently Used algorithm",
   "main": "_dist/jlru.min.js",
   "bin": {},
@@ -44,8 +44,8 @@
     "chai": "4.2.0",
     "coveralls": "3.0.3",
     "cross-env": "5.2.0",
-    "del": "4.0.0",
-    "eslint": "5.15.3",
+    "del": "4.1.0",
+    "eslint": "5.16.0",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-plugin-import": "2.16.0",
     "gulp": "4.0.0",

@@ -14,7 +14,7 @@ const over       = require('./int/over')
     , hasremove  = require('./int/hasremove')
     , ced        = require('./int/countemptydump')
     , renewprune = require('./int/renewprune')
-    , maxitems   = require('./int/maxitems')
+    , maxitage   = require('./int/maxitemsage')
     , autoprune  = require('./int/autoprune')
     ;
 
@@ -46,7 +46,7 @@ describe('Test JLRU:', () => {
   renewprune();
 
   // Test the cache overflow:
-  maxitems();
+  maxitage();
 
   // Test the automatic prune:
   autoprune();

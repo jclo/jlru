@@ -1,5 +1,11 @@
 ### HEAD
 
+### 0.0.2 (April 5, 2019)
+
+  * Fixed an issue with the get method,
+  * ...,
+
+
 ### 0.0.1 (March 29, 2019)
 
   * Fixed some minor issues,

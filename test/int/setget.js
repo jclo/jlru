@@ -71,8 +71,13 @@ module.exports = () => {
         expect(o).to.have.property('age').that.is.a('number');
       });
 
-      it('Expects a second lru.get("a") to return null.', () => {
-        expect(lru.get('a')).to.be.a('null');
+      it('Expects a second lru.get("a") after 200ms to return the property "age" with a value below 10.', (done) => {
+        setTimeout(() => {
+          lru.get('a');
+          const o2 = lru.get('a');
+          expect(o2).to.have.property('age').that.is.a('number').to.be.below(10);
+          done();
+        }, 200);
       });
 
       it('Expects lru.get("b") to return null.', () => {

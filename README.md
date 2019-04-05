@@ -76,7 +76,7 @@ const cache = JLRU({ maxAge: 1000, maxItems: 100000 });
     You can force to update the value by typing: `set(key, newval, { force: true });`
 
   * **get**<br>
-    `get(key)` returns the key/value stored into the cache and remove it from the cache. If this key/value doesn't exist, or it has reached its lifetime, `get` returns `null`.
+    `get(key)` returns the key/value stored into the cache. If this key/value doesn't exist, or it has reached its lifetime, `get` returns `null`.
 
   * **has**<br>
     `has(key)` returns the key/value stored into the cache. If this key/value doesn't exist, or it has reached its lifetime, `has` returns `null`.
