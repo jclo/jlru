@@ -3,7 +3,7 @@
 ### 0.0.3 (April 6, 2019)
 
   * Fixed a few typos,
-  * ...;
+  * Release.
 
 
 ### 0.0.2 (April 5, 2019)
