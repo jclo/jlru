@@ -10,7 +10,7 @@
 
 [![NPM install][npm-install-image]][npm-install-url]
 
-`JLRU` is an in-memory key/value database that relies on the Least Recently Used algorithm to maintain its size in a predefined limits.
+`JLRU` is an in-memory key/value cache that relies on the Least Recently Used algorithm to maintain its size in a predefined limits.
 
 `JLRU` runs on both the browser and Node.js.
 

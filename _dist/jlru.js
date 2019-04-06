@@ -1,7 +1,7 @@
 /** ****************************************************************************
- * JLRU v0.0.2
+ * JLRU v0.0.3
  *
- * An in-memory key/value database based on the Least Recently Used algorithm.
+ * An in-memory key/value cache based on the Least Recently Used algorithm.
  * (you can download it from npm or github repositories)
  * Copyright (c) 2019 jclo <jclo@mobilabs.fr> (http://www.mobilabs.fr/).
  * Released under the MIT license. You may obtain a copy of the License
@@ -710,7 +710,7 @@
     /* eslint-enable no-param-reassign */
 
     // Current version of the library:
-    JLRU.VERSION = '0.0.2';
+    JLRU.VERSION = '0.0.3';
 
     // For testing purpose:
     JLRU._ = _;
