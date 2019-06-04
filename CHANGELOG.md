@@ -3,7 +3,7 @@
 ### 0.0.4 (June 4, 2019)
 
   * Added a hack in the header to make the library browserifiable,
-  * ...,
+  * Release.
 
 
 ### 0.0.3 (April 6, 2019)
