@@ -150,12 +150,11 @@
   // Runs JLRU in noConflict mode, returning the JLRU variable to its
   // previous owner. Returns a reference to this JLRU object.
   /* istanbul ignore next */
-  /* eslint-disable no-param-reassign */
   JLRU.noConflict = function() {
+    /* eslint-disable-next-line no-param-reassign */
     root.JLRU = previousJLRU;
     return this;
   };
-  /* eslint-enable no-param-reassign */
 
   // Current version of the library:
   JLRU.VERSION = '{{lib:version}}';

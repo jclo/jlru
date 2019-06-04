@@ -1,5 +1,5 @@
 /** ****************************************************************************
- * JLRU v0.0.3
+ * JLRU v0.0.4
  *
  * An in-memory key/value cache based on the Least Recently Used algorithm.
  * (you can download it from npm or github repositories)
@@ -24,11 +24,14 @@
     // only CommonJS-like environments that support module.exports,
     // like Node.
     module.exports = factory(root);
+    // This is a hack to attach the lib to the browser root when this lib is
+    // included inside another lib and the whole is browserifyied:
+    /* eslint-disable-next-line no-param-reassign */
+    if (root.JLRU === null) root.JLRU = factory(root);
   } else {
     // Browser globals.
-    /* eslint-disable no-param-reassign */
+    /* eslint-disable-next-line no-param-reassign */
     root.JLRU = factory(root);
-    /* eslint-enable no-param-reassign */
   }
 }(this, function(root) {
   'use strict';
@@ -702,15 +705,14 @@
     // Runs JLRU in noConflict mode, returning the JLRU variable to its
     // previous owner. Returns a reference to this JLRU object.
     /* istanbul ignore next */
-    /* eslint-disable no-param-reassign */
     JLRU.noConflict = function() {
+      /* eslint-disable-next-line no-param-reassign */
       root.JLRU = previousJLRU;
       return this;
     };
-    /* eslint-enable no-param-reassign */
 
     // Current version of the library:
-    JLRU.VERSION = '0.0.3';
+    JLRU.VERSION = '0.0.4';
 
     // For testing purpose:
     JLRU._ = _;
