@@ -1,5 +1,11 @@
 ### HEAD
 
+### 0.0.5 (November 4, 2019)
+
+  * Updated dependencies,
+  * ...,
+
+
 ### 0.0.4 (June 4, 2019)
 
   * Added a hack in the header to make the library browserifiable,
