@@ -10,6 +10,9 @@
 
 [![NPM install][npm-install-image]][npm-install-url]
 
+| `JLRU` is no longer supported. Use [@mobilabs/lru](https://www.npmjs.com/package/@mobilabs/lru) instead. |
+| --- |
+
 `JLRU` is an in-memory key/value cache that relies on the Least Recently Used algorithm to maintain its size in a predefined limits.
 
 `JLRU` runs on both the browser and Node.js.

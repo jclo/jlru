@@ -1,6 +1,6 @@
 {
   "name": "jlru",
-  "version": "0.0.5",
+  "version": "0.0.9",
   "description": "An in-memory key/value cache based on the Least Recently Used algorithm",
   "main": "_dist/jlru.min.js",
   "bin": {},
