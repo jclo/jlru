@@ -55,7 +55,7 @@
     "gulp-replace": "1.0.0",
     "gulp-uglify": "3.0.2",
     "husky": "3.0.9",
-    "mocha": "6.2.2",
+    "mocha": "10.2.0",
     "nyc": "14.1.1",
     "opener": "1.5.1"
   },
